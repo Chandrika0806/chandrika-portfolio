@@ -84,7 +84,7 @@ function App() {
 
             <h1>Ravi Chandrika Narne</h1>
 
-            <h2>CSE Student | Aspiring Software Engineer</h2>
+            <h2>CSE- DS Student | Aspiring Software Engineer</h2>
 
             <p className="hero-description">
               Passionate about building intelligent systems and solving
@@ -150,7 +150,7 @@ function App() {
           <div className="about-grid">
             <div className="about-text">
               <p>
-                I am a Computer Science and Engineering student at the
+                I am a Computer Science and Engineering - Data Science student at the
                 Institute of Aeronautical Engineering, Hyderabad.
               </p>
 
@@ -165,7 +165,7 @@ function App() {
                   <GraduationCap size={22} />
                   <span>
                     <strong>Education</strong>
-                    B.Tech CSE
+                    B.Tech CSE - DS
                   </span>
                 </div>
 
