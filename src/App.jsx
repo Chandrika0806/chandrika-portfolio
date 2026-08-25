@@ -24,6 +24,8 @@ function App() {
       tech: ["Python", "Flask", "SQLite", "HTML", "CSS", "JavaScript"],
       description:
         "AI-powered pet care platform with health tracking, feeding reminders, personalized pet management, secure user authentication, and dashboard functionality.",
+      github: "https://github.com/Chandrika0806/PetCare-AI",
+      demo: null,
     },
     {
       title: "Automated News Mailer System",
@@ -39,13 +41,17 @@ function App() {
       ],
       description:
         "Flask-based news platform integrated with NewsAPI for real-time news data, with Jenkins CI/CD and Docker containerization for automated deployment.",
+      github: "https://github.com/Chandrika0806/personalized-news-digest",
+      demo: null,
     },
     {
       title: "Diabetes Prediction Model",
-      year: "2025",
-      tech: ["Python", "Machine Learning", "Flask"],
+      year: "2026",
+      tech: ["Python", "Machine Learning", "Streamlit", "Random Forest"],
       description:
-        "Performed data preprocessing and exploratory data analysis and built a predictive model achieving 73.34% accuracy.",
+        "AI-powered diabetes risk prediction application that uses a Random Forest machine learning model to analyze health parameters and provide risk predictions.",
+      github: "https://github.com/Chandrika0806/diapredict-ai",
+      demo: "https://diapredict-ai-0.streamlit.app/",
     },
   ];
 
@@ -84,7 +90,7 @@ function App() {
 
             <h1>Ravi Chandrika Narne</h1>
 
-            <h2>CSE- DS Student | Aspiring Software Engineer</h2>
+            <h2>CSE-DS Student | Aspiring Software Engineer</h2>
 
             <p className="hero-description">
               Passionate about building intelligent systems and solving
@@ -150,8 +156,8 @@ function App() {
           <div className="about-grid">
             <div className="about-text">
               <p>
-                I am a Computer Science and Engineering - Data Science student at the
-                Institute of Aeronautical Engineering, Hyderabad.
+                I am a Computer Science and Engineering - Data Science student
+                at the Institute of Aeronautical Engineering, Hyderabad.
               </p>
 
               <p>
@@ -327,8 +333,8 @@ function App() {
 
               <ul>
                 <li>
-                  Designed interactive Power BI dashboards using DAX and
-                  Power Query to analyze sales performance and business KPIs.
+                  Designed interactive Power BI dashboards using DAX and Power
+                  Query to analyze sales performance and business KPIs.
                 </li>
 
                 <li>
@@ -371,14 +377,27 @@ function App() {
                   ))}
                 </div>
 
-                <a
-                  href="https://github.com/Chandrika0806"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="project-link"
-                >
-                  View on GitHub <ExternalLink size={17} />
-                </a>
+                <div className="project-links">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-link"
+                  >
+                    View on GitHub <ExternalLink size={17} />
+                  </a>
+
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-link demo-link"
+                    >
+                      Live Demo <ExternalLink size={17} />
+                    </a>
+                  )}
+                </div>
               </article>
             ))}
           </div>

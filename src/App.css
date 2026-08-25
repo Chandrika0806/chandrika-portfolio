@@ -853,3 +853,13 @@ footer a:hover {
     text-align: center;
   }
 }
+.project-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.demo-link {
+  background: transparent;
+}
