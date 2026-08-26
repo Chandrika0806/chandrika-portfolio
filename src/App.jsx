@@ -41,8 +41,8 @@ function App() {
       ],
       description:
         "Flask-based news platform integrated with NewsAPI for real-time news data, with Jenkins CI/CD and Docker containerization for automated deployment.",
-      github: "https://github.com/Chandrika0806/personalized-news-digest",
-      demo: null,
+      github: "https://github.com/Chandrika0806/news-mailer",
+      demo: "https://news-mailer.onrender.com/",
     },
     {
       title: "Diabetes Prediction Model",
