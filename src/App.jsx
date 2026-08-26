@@ -19,13 +19,19 @@ import "./App.css";
 function App() {
   const projects = [
     {
-      title: "PetCare AI",
+      title: "Learning Path Recommendation System",
       year: "2026",
-      tech: ["Python", "Flask", "SQLite", "HTML", "CSS", "JavaScript"],
+      tech: [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Supabase",
+  ],
       description:
-        "AI-powered pet care platform with health tracking, feeding reminders, personalized pet management, secure user authentication, and dashboard functionality.",
-      github: "https://github.com/Chandrika0806/PetCare-AI",
-      demo: null,
+        "Interactive web application that provides personalized learning path recommendations and curated resources to help users build structured learning journeys.",
+      github: "https://github.com/Chandrika0806/learning-path-recommendation-system",
+      demo: "https://learning-path-recommendation-system.vercel.app/auth",
     },
     {
       title: "Automated News Mailer System",
