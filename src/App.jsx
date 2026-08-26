@@ -31,7 +31,7 @@ function App() {
       description:
         "Interactive web application that provides personalized learning path recommendations and curated resources to help users build structured learning journeys.",
       github: "https://github.com/Chandrika0806/learning-path-recommendation-system",
-      demo: "https://learning-path-recommendation-system.vercel.app/auth",
+      demo: "https://learning-path-recommendation-system.vercel.app/",
     },
     {
       title: "Automated News Mailer System",
